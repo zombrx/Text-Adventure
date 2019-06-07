@@ -1,4 +1,4 @@
-alert('Welcome, (please take a minute to read "How to Play")')
+setTimeout (function () {alert('Welcome, (please take a minute to read "How to Play")')
 var enterCabin = confirm('You are in the middle of the woods with no prior memory. In front of you there\'s a cabin, Do you go in?');
 
 if (enterCabin == true) {
@@ -48,3 +48,4 @@ var level4 = prompt('as you walk in you get a sense of relief, it\'s a silver-is
   else if (level4 == '2')
   alert('BREAK TIME (I havent programmed this part yet')
 
+} , 5000);// below this line the delay stops
