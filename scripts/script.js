@@ -35,7 +35,7 @@ else if(level2 == 2 )
 
 var subl3 = confirm('Should you look for the footsteps or ignore them?')
 
-if (subl3 == true)
+  if (subl3 == true)
  alert('You couldnt ignore the footsteps , you go out of your way to look for them. You cant seem to find the source but you keep going, hoping its the right path. You hear growling and yelling close by , you\'re scared. You keep going through this mayhem untill you find a door. On the floor you find a piece of paper with a strange symbol on it. You hesitate before you walk in')
 
  else if (subl3 == false)
@@ -44,8 +44,36 @@ if (subl3 == true)
 
 var level4 = prompt('as you walk in you get a sense of relief, it\'s a silver-ish room with old white flooring and strange symbols on the wall. As you get comfortable , you expolre. you find a white item the size of a bean(1), you also find a strange liquid(2). You get the urge to consume one of them. Which one do you consume ?')
   if (level4 == '1')
-  alert('BREAK TIME (I havent programmed this part yet')
-  else if (level4 == '2')
-  alert('BREAK TIME (I havent programmed this part yet')
+  alert('you eat the bean. Nothing seems to happen , you start looking around and start getting mad, you start pounding on the walls and spiting on the floor in disgust. You start hearing entities but don\'t see anyone, the voices are telling you to be calm and laydown but you refuse to trust them in this dilusional state you are in, why should you ? why whould you when you\'ve been alone till now just fine ? yeah, you\'re ok. You feel something touch you and try to comfort you. You smash your head against the wall untill you pass out. You get up, still looking for an escape.')
 
-} , 5000);// below this line the delay stops
+  else if (level4 == '2')
+  alert('You consume the liquid and sit down on the carpet. After a while you start to feel tingly & funny, the roof starts to flow together and begins to look woven. You feel amazing and free, your heart starts to race as you are filled with all these realizations & ideas of life and why , what & how you got down here. You see the whole world change before you & transform into diffrent enviroments untill finally stopping in space. You feel your whole buddy hit with an invisable force and are instantly back in the room. You can\'t seem to grasp the ideas & the realizations you\'ve just had but you feel reborn and full of energy and motivation. You stand up ready to take on the world!')
+
+var level5 = prompt('The symbols have disapeared , the room has dimmed . You look around and find a ventalition system where a symbol used to be , it seems dark and moldy. You also see the door has been open  , you sense someone waiting outside the room. Go into the vents(1)? or through the door(2) ?')
+  if (level5 == '1')
+     alert('You go through the vents and are able to get a glimps into the other rooms. In one room you see cages with dogs inside,in the other you see dead bodies piled up and weird symbols with a strange liquid dripping down from them in another room. You find a hole and jump through it.')
+  else if (level5 = '2')
+  alert('Bravely you walk through the front door. You don\'t see anyone so you keep going and walk past some rooms, you wonder what\'s inside them. As you keep walking the screams continue, the hallway seems never ending. Someone grabs you and turns you around. no ones there but you start hearing hollowing and see some creatures running towards you , you turn to run but fall through a hole.')
+
+var fight = prompt('The creatures follow you . They look uncanny , just like humans but with slight diffrencess , its hard for you to tell in this lighting but you could tell something is off. You get up and get ready to fight them, its only two, you think you could take them, One lunges towards you . Do you dogde(1) or attack(2) ? ')
+ if (fight == '1')
+   alert('You dodge and counter with a gut shot , its buddy tackles you to the ground. You manage to get back on your feet.')
+
+   else if(fight == '2')
+    alert('You attack ! you manage to hit first. You hit it in the jaw once then again in the gut , its buddy charges. You dodge & push it onto the ground. you re focus on the other one , it stares at you while his buddy gets back up')
+
+var fight2 = prompt('You are pinched, They attack. You crouch and jump out the way, Now they are both facing you . You grab it by the back of the neck and run it into his buddys head. You stomp em both and break thier jaw. Do you beat them dead(1) ? or leave them there(2) ?') 
+  if (fight2 == '1')
+    alert('You mercilessly beat them & gouge there eyes out. you leave them there twicthing wishing to die.')
+
+    else if (fight2 == '2')
+    alert('you do the humane thing and just leave them be , they\'ve had enough after all, right ?')
+
+
+var level6 = prompt('Well then, you brush yourself off and continue. You are met with two paths, left(1) or right(2)')
+ if (level6 == '1')
+ alert('You go left. (If you\'ve made it this far thank you for taking your time to play , ima stop here for now while i do other things , Tats if you are checking this out thank you ! I\'d ask you to correct my grammer but yours is worse. If Jr is reading this get better at apex, you suck.)')
+ 
+ else if(level6 == '2')
+  alert('You go right. (If you\'ve made it this far thank you for taking your time to play , ima stop here for now while i do other things . Tats if you are checking this out thank you ! I\'d ask you to correct my grammer but yours is worse. if Jr is reading this get better at apex, you suck)')
+} , 10000);// below this line the delay stops
